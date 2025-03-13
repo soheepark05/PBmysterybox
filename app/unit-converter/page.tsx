@@ -5,6 +5,7 @@ import type React from "react"
 import { useState, useEffect } from "react"
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
+import HomeButton from "@/components/HomeButton"
 
 // Expanded unit conversion data
 const unitTypes = [
@@ -283,28 +284,10 @@ export default function UnitConverter() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
+      <HomeButton />
       <main className="container mx-auto p-4 flex-grow">
         <div className="max-w-3xl mx-auto bg-white rounded-lg shadow-md p-6">
           <h1 className="text-2xl font-bold text-center mb-6">오영이의 단위 환산 계산기</h1>
-
-          <div className="bg-gray-100 p-4 rounded-lg mb-6">
-            <h2 className="text-lg font-semibold mb-4">빠른 단위 변환기</h2>
-            <div className="mb-4">
-              <label className="block mb-2">원래 값:</label>
-              <input
-                type="text"
-                className="w-full p-2 border rounded"
-                placeholder="예제: 300cm 또는 3x10^2cm"
-                value={inputValue}
-                onChange={(e) => setInputValue(e.target.value)}
-              />
-            </div>
-            <div className="flex justify-center">
-              <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" onClick={handleConvert}>
-                변환
-              </button>
-            </div>
-          </div>
 
           <div className="mb-6">
             <h2 className="text-lg font-semibold mb-4">측정 단위를 기본 계산기로:</h2>
@@ -419,6 +402,14 @@ export default function UnitConverter() {
               ))}
             </ul>
             <p className="mt-4 text-blue-600">추가로 변환하고 싶은 단위는 master@puplebean.co.kr 로 문의주세요.</p>
+            <div className="mt-4 p-3 bg-blue-50 rounded-lg border border-blue-100">
+              <h4 className="font-semibold mb-1">과학적 기수법이란?</h4>
+              <p>
+                과학적 기수법은 매우 크거나 작은 숫자를 표현하는 방식으로, 1과 10 사이의 숫자에 10의 거듭제곱을 곱하는
+                형태로 표현합니다. 예를 들어, 299,792,458은 2.99792458 × 10^8로 표현됩니다. 이 옵션을 선택하면 변환
+                결과가 이러한 형식으로 표시됩니다.
+              </p>
+            </div>
           </div>
         </div>
       </main>

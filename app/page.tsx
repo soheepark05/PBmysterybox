@@ -10,9 +10,11 @@ const cards = [
     link: "/unit-converter",
   },
   {
-    title: "웹페이지 2",
-    description: "클릭하면 웹페이지로 이동합니다.",
-    image: "/placeholder.svg?height=200&width=400",
+    title: "글자수 세기",
+    description: "텍스트의 글자 수, 단어 수, 문장 수 등을 셀 수 있어요.",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/person-using-retro-computer.jpg-gcOYuBqtvAk9OtELgHtCCH2u6NoPl6.jpeg",
+    link: "/character-counter",
   },
   {
     title: "웹페이지 3",
