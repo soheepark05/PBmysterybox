@@ -17,14 +17,17 @@ const cards = [
     link: "/character-counter",
   },
   {
-    title: "웹페이지 3",
-    description: "클릭하면 웹페이지로 이동합니다.",
-    image: "/placeholder.svg?height=200&width=400",
+    title: "룰렛 돌리기",
+    description: "돌려~ 돌려~ 나만 안걸리면 되는 룰렛 돌리기",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%EB%A3%B0%EB%A0%9B%EB%8F%8C%EB%A6%AC%EA%B8%B0-62oUyRofQf6GSUqhtSw0CBfvgCDDW6.png",
+    link: "/roulette",
   },
   {
-    title: "웹페이지 4",
-    description: "클릭하면 웹페이지로 이동합니다.",
-    image: "/placeholder.svg?height=200&width=400",
+    title: "오늘의 점메추 for 김스마트",
+    description: "오늘 점심 뭐 먹지? 고민될 때 추천해 드립니다.",
+    image: "/placeholder.svg?height=200&width=400&text=오늘의+점메추",
+    link: "/lunch-recommendation",
   },
   {
     title: "웹페이지 5",

@@ -77,7 +77,7 @@ const unitTypes = [
       { name: "세제곱 인치 (in³)", factor: 0.000016387 },
       { name: "세제곱 피트 (ft³)", factor: 0.028317 },
       { name: "세제곱 야드 (yd³)", factor: 0.764555 },
-      { name: "갤런 (미국) (gal)", factor: 0.003785 },
+      { name: "갤��� (미국) (gal)", factor: 0.003785 },
       { name: "갤런 (영국) (gal)", factor: 0.00454609 },
       { name: "쿼트 (미국) (qt)", factor: 0.000946353 },
       { name: "파인트 (미국) (pt)", factor: 0.000473176 },
@@ -287,7 +287,7 @@ export default function UnitConverter() {
       <HomeButton />
       <main className="container mx-auto p-4 flex-grow">
         <div className="max-w-3xl mx-auto bg-white rounded-lg shadow-md p-6">
-          <h1 className="text-2xl font-bold text-center mb-6">오영이의 단위 환산 계산기</h1>
+          <h1 className="text-2xl font-bold text-center mb-6">오영이의 단위 환산 계산��</h1>
 
           <div className="mb-6">
             <h2 className="text-lg font-semibold mb-4">측정 단위를 기본 계산기로:</h2>
